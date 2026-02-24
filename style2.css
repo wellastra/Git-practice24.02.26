@@ -1,0 +1,15 @@
+.div {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@media (max-width: 400px) {
+  .div {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
