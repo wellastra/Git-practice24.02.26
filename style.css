@@ -24,3 +24,10 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 400px) {
+  .profile-card__buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
