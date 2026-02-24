@@ -1,0 +1,33 @@
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.profile-card__avatar {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.profile-card__buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.profile-card__button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .profile-card__buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
